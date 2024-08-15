@@ -1,0 +1,274 @@
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 5px 0; 
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.ml-auto {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin-right: 15px; 
+    display: flex;
+    align-items: center;
+}
+
+#citySearch {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.search-form .input-group {
+    position: relative;
+    width: 150px; 
+}
+
+.search-form .search-input {
+    width: 100%;
+    padding-right: 10px; 
+    height: auto; 
+    display: flex;
+    align-items: center;
+}
+
+.search-form .search-icon {
+    position: absolute;
+    right: 20px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666; 
+    border: none; 
+    padding: 0;
+    z-index: 10;
+    font-size: 1.2rem; 
+}
+
+.btn-light, .btn-success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+}
+
+.form-inline .form-control {
+    max-width: 150px; 
+    margin-right: 15px; 
+}
+
+.right-bar{
+    padding: 15px 0;
+}
+
+.city-details-page{
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+.card {
+    border: none; 
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; 
+}
+
+.card-body {
+    padding: 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    width: 100%;
+}
+
+.city-details {
+    width: 50%; 
+    padding: 50px; 
+    background-color: #f8f9fa; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .row {
+        margin-bottom: 10px; 
+    }
+
+    .text-right {
+        padding-right: 15px; 
+    }
+
+    .font-weight-bold {
+        font-weight: bold;
+        color: #333; 
+    }
+}
+
+
+.city-details p {
+    font-size: 1rem; 
+    margin-bottom: 10px; 
+    color: #333; 
+}
+
+.city-image {
+    width: 50%; 
+    padding: 30px;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.city-image img {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    background-color: #f8f9fa; 
+    max-width: 150px; 
+}
+
+.city-image h4 {
+    font-size: 1.5rem; 
+    color: #016cdf; 
+    margin-top: 15px; 
+}
+
+.city-detail-title.text-center {
+    font-size: 2rem;
+    font-weight: 100; 
+    color: #2f2f2f; 
+    margin-bottom: 30px;
+}
+
+h2.text-center {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #016cdf; 
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background: linear-gradient(to bottom, #016cdf, #4ab7f7);
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+    margin: 0; 
+    border-bottom: none; 
+}
+
+.jumbotron h1 {
+    font-weight: 400; 
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+.jumbotron form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.jumbotron .form-control {
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+}
+
+footer {
+    background-color: #e9ecef;
+    color: #333;
+    font-size: 0.8rem;
+}
+
+footer h5 {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+footer ul li:last-child {
+    margin-bottom: 50px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+footer .container .row > div {
+    margin-bottom: 20px;
+}
+
+footer .row .col-md-2 {
+    padding-right: 20px;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer h5,
+footer p,
+footer a {
+    color: #5e5e5e;
+}
+
+footer .col-md-2 {
+    margin-bottom: 20px;
+}
+
+
